@@ -1,21 +1,11 @@
-
 .instaimg img {
     margin-right: 10px;
-
-body {
-    padding-top: 5vh;
-}
-
-.instaimg img {
-    margin-bottom: 30px;
-
 }
 
 .instaimg img:hover {
     opacity: 0.8;
     -moz-opacity: 0.8;
     -webkid-opacity: 0.8;
-
 
 }
 
@@ -195,15 +185,3 @@ body,
 /*######################################*/
 /* Carousels */
 /*######################################*/
-
-        
-}
-
-img-fluid {
-    
-}
-.img-thumbnail {
-    width: 200px;
-    height: 200px;
-}
-
