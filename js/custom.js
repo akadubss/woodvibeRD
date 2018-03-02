@@ -4,11 +4,14 @@ $(document).ready(function() {
     var userFeed = new Instafeed({
         get: 'user',
         userId: '5941440362',
+
+
         limit: 8,
         resolution: 'standard_resolution',
         accessToken: '5941440362.1677ed0.b1f67c7dc18946c8985c508fd0dd5b67',
         sortBy: 'most-recent',
         template: '<div class="col-lg-3 col-md-3 col-sm-6 col-6  instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-thumbnail"/></a></div>',
+
     });
 
 
@@ -28,5 +31,7 @@ $(document).ready(function() {
     
     $('#carouselFade').carousel();
 
+     baguetteBox.run('.tz-gallery');
 });
+
 
